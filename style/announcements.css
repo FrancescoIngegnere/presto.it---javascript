@@ -1,0 +1,106 @@
+/* category */
+.category-card {
+    border: 15px solid var(--white);
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 180px;
+}
+
+    .category-card .border-dashed {
+        border: 1px dashed var(--main);
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        transition: all 0.5s;
+    }
+
+    .category-card .icon {
+        border: 1px dashed var(--main);
+        padding: 8px;
+        color: var(--main);
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: var(--white);
+    }
+
+        .category-card:hover .border-dashed {
+            background-color: var(--main);
+        }
+
+    .category-card h3 {
+        color: var(--dark);
+        transition: all 0.5s;
+    }
+
+    .category-card p {
+        color: var(--main);
+        transition: all 0.5s;
+    }
+
+        .category-card:hover h3 {
+            color: var(--white);
+        }
+
+        .category-card:hover p {
+            color: var(--white);
+        } 
+
+        
+/* announcement */
+.card-announcement {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s;
+    -webkit-box-shadow: 10px 10px 12px 0px rgb(207, 207, 207); 
+    -moz-box-shadow: 10px 10px 12px 0px rgb(207, 207, 207); 
+    box-shadow: 10px 10px 12px 0px rgb(207, 207, 207); 
+    max-width: 350px;
+    margin: auto;
+}
+
+    .card-announcement:hover {
+        -webkit-box-shadow: 0px 10px 12px 5px rgb(207, 207, 207); 
+        -moz-box-shadow: 0px 10px 12px 5px rgb(207, 207, 207); 
+        box-shadow: 0px 10px 12px 5px rgb(207, 207, 207); 
+    }
+
+    .card-announcement .details {
+        padding: 40px 20px;
+        background-color: var(--white);
+    }
+
+    .card-announcement .image .type-announcement {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    .card-announcement img {
+        transition: all 0.5s;
+    }
+
+    .card-announcement:hover img {
+        transform: scale(1.2);
+    }
+
+    .card-announcement .footer div {
+        border-right: 1px dashed var(--main);
+        border-top: 1px dashed var(--main);
+    }
+
+    .card-announcement .footer div:last-child {
+        border-right: none;
+    }
+
+
+
+/* 
+    | //
+   ( @ @ )
+ooO__(_)__Ooo
+٩(͡๏̯͡๏)۶
+*/

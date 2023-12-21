@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Presto.it</title>
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <!-- swiper -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <link rel="stylesheet" href="./style/common.css">
+        <link rel="stylesheet" href="./style/index.css">
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-white shadow fixed-top" id="navbar">
+            <div class="container-fluid px-xl-5">
+                <a class="navbar-brand d-flex align-items-center gap-3" href="./index.html">
+                    <img src="./images/logo (1).png" alt="logo" title="presto.it" class="img-fluid w-50px h-50px">
+                    <h2>Presto.it</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./announcements.html">Annunci</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./categories.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Categorie
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./categories.html">Auto</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./categories.html">Elettronica</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./categories.html">Moto</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./categories.html">Abbigliamento</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./categories.html">Sport</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./categories.html">Giardinaggio</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./categories.html">Casa</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./categories.html">Cucina</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./profile.html">Profilo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-main">Crea annuncio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header -->
+        <header class="container fake-navbar pt-5">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-lg-6 px-3 px-xl-5 order-2 order-lg-1 text-center text-lg-start">
+                    <h1 class="display-4 fw-semibold mt-4">Trova i <span class="c-main">migliori affari</span> nella tua città</h1>
+                    <p class="c-neutral my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rerum consequatur dolorem maiores dolor voluptates culpa, ea eaque similique ad, blanditiis hic distinctio asperiores nihil iure rem id, perferendis recusandae!</p>
+                    <a href="#" class="btn btn-main px-5 py-3">Inizia ora</a>
+                </div>
+                <div class="col-12 col-lg-6 p-0 order-1 order-lg-2 position-relative">
+                    <!-- slider main container -->
+                    <div class="swiper header-carousel">
+                        <!-- addictional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- slides -->
+                            <div class="swiper-slide">
+                                <img src="https://picsum.photos/1000" alt="image swipe" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://picsum.photos/1001" alt="image swipe" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://picsum.photos/1002" alt="image swipe" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://picsum.photos/1003" alt="image swipe" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://picsum.photos/1004" alt="image swipe" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- navigation button -->
+                    <a class="btn header-carousel-prev btn-carousel d-flex justify-content-center align-items-center" type="button">
+                        <i class="fa-solid fa-angle-left fa-2x"></i>
+                    </a>
+                    <a class="btn header-carousel-next btn-carousel d-flex justify-content-center align-items-center" type="button">
+                        <i class="fa-solid fa-angle-right fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- category -->
+        <section class="container-xl py-5 bg-white">
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-md-8 text-center">
+                    <h2 class="display-5">Le nostre <span class="c-main fw-semibold">Categorie</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus neque ab explicabo quas, incidunt similique?</p>
+                </div>
+                <div class="row mt-5" id="categoryCardWrapper">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- form -->
+        <section class="container-fluid position-relative py-5">
+            <div class="green-obj"></div>
+            <div class="container my-5">
+                <div class="row position-relative align-items-center">
+                    <div class="col-12 col-lg-6 image-form">
+                        <img src="https://picsum.photos/2200" alt="lavora con noi" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start mt-4 mt-lg-0">
+                        <h2 class="display-5">Lavora <span class="c-main fw-semibold">con noi</span></h2>
+                        <p class="mb-5">
+                            Invia la tua candidatura per far parte del team di Presto.it
+                        </p>
+
+                        <form class="was-validated" novalidate>
+                            <div class="form-floating mb-4">
+                                <input type="text" class="form-control" id="nameFormInput" placeholder="Inserisci il tuo nome" required>
+                                <label for="nameFormInput">Nome</label>
+                                <div class="valid-feedback">
+                                    Grazie &#128513;
+                                </div>
+                                <div class="invalid-feedback">
+                                    Il campo nome è obbligatorio &#128532;
+                                </div>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input type="email" class="form-control" id="emailFormInput" placeholder="name@example.com" required>
+                                <label for="emailFormInput">E-mail</label>
+                                <div class="valid-feedback">
+                                    Grazie &#128513;
+                                </div>
+                                <div class="invalid-feedback">
+                                    Il campo e-mail è obbligatorio &#128532;
+                                </div>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <textarea class="form-control h-200px" placeholder="Scrivi una tua descrizione" id="descriptionFormInput" required></textarea>
+                                <label for="descriptionFormInput">Inserisci una tua breve presentazione</label>
+                                <div class="valid-feedback">
+                                    Grazie &#128513;
+                                </div>
+                                <div class="invalid-feedback">
+                                    Il campo descrizione è obbligatorio &#128532;
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-main px-4 py-2" type="submit">Invia la tua candidatura</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- announcements -->
+        <section class="container py-5">
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-md-8 text-center">
+                    <h2 class="display-5">Gli ultimi <span class="c-main fw-semibold">Annunci</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quos, impedit facilis beatae ea corporis cumque explicabo itaque incidunt accusamus voluptatibus nemo illum tempore aliquid officia consequuntur qui aut dignissimos.</p>
+                </div>
+            </div>
+            <div class="row" id="announcementsWrapper">
+                
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+            <div class="container py-5">
+                <div class="row g-5 justify-content-between">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="c-main mb-4">Get In Touch</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a href="#" class="btn btn-outline-light btn-social mx-1" title="social"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-outline-light btn-social mx-1" title="social"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="btn btn-outline-light btn-social mx-1" title="social"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="btn btn-outline-light btn-social mx-1" title="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="c-main mb-4">Quick Links</h5>
+                        <a href="#" class="btn btn-link text-white-50">About Us</a>
+                        <a href="#" class="btn btn-link text-white-50">Contact Us</a>
+                        <a href="#" class="btn btn-link text-white-50">Our Services</a>
+                        <a href="#" class="btn btn-link text-white-50">Privacy Policy</a>
+                        <a href="#" class="btn btn-link text-white-50">Terms &amp; Condition</a>
+                    </div>
+                    <div class="col-lg-5 col md-6">
+                        <h5 class="c-main mb-4">Newsletter</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique?</p>
+                        <div class="position-relative mx-auto">
+                            <input type="text" class="form-control bg-transparent w-100 py-3 ps-4 pe-5 text-white" placeholder="Your email" id="inputfooter">
+                            <button type="button" class="btn btn-main py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-12 text-center mb-3 mb-md-0">
+                            @ <a href="#" class="border-bottom">Presto.it</a>, All Right Reserved. Copied By <a href="#" class="border-bottom">Francesco Ingegnere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+        <!-- swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <script src="./js/common.js"></script>
+        <script src="./js/home.js"></script>
+    </body>
+</html>
+
+
+<!-- 
+    | //
+   ( @ @ )
+ooO__(_)__Ooo
+٩(͡๏̯͡๏)۶
+ -->

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --main: #00b98e;
+    --main-dark: #02ab83;
+    --main-light: #26c49f;
+    --white: #fafafa;
+    --dark: #0e2e50;
+    --neutral: #666565;
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+.c-main {
+    color: var(--main);
+}
+
+.c-dark {
+    color: var(--dark);
+}
+
+.c-neutral {
+    color: var(--neutral);
+}
+
+.bg-main {
+    background-color: var(--main);
+}
+
+.bg-main-light {
+    background-color: var(--main-light);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-neutral {
+    background-color: var(--neutral);
+}
+
+.h-200px {
+    height: 200px !important;
+}
+
+.h-50px {
+    height: 50px !important;
+}
+
+.w-50px {
+    width: 50px !important;
+}
+
+.btn-main {
+    background-color: var(--main);
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    /* border: 2px solid var(--main-dark); */
+}
+
+    .btn-main:hover {
+        background-color: var(--main-light);
+        /* border: 2px solid var(--main-dark); */
+        color: var(--white);
+    }
+
+.btn-dark {
+    background-color: var(--dark);
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    border: 2px solid var(--dark);
+}
+
+    .btn-dark:hover {
+        background-color: var(--white);
+        border: 2px solid var(--dark);
+        color: var(--dark);
+    }
+
+
+/* NavBar */
+.fake-navbar {
+    height: auto;
+    margin-top: 80px; 
+}
+
+#navbar {
+    transition: all 0.5s;
+    z-index: 9999;
+}
+
+    #navbar .nav-link {
+        text-transform: uppercase;
+        color: var(--dark);
+        font-weight: 600;
+        padding: 16px 24px;
+        transition: all 0.5s;
+    }
+
+        #navbar .nav-link:hover {
+            color: var(--main);
+        }
+
+        #navbar .nav-link.active {
+            color: var(--main);
+        }
+
+
+/* footer */
+#inputfooter::placeholder{
+    color: var(--white);
+    opacity: 0.7;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    #navbar {
+        margin: 40px 100px 0px;
+    }
+
+    #navbar.scrolled {
+        margin: 0;
+    }
+
+}
+
+
+/* 
+    | //
+   ( @ @ )
+ooO__(_)__Ooo
+٩(͡๏̯͡๏)۶
+*/

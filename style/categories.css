@@ -1,0 +1,58 @@
+/* category */
+.category-card {
+    border: 15px solid var(--white);
+    border-radius: 10px;
+    transition: all 0.5s;
+    max-width: 350px;
+    margin: auto;
+}
+
+    .category-card .border-dashed {
+        border: 1px dashed var(--main);
+        padding: 30px;
+        text-align: center;
+        border-radius: 10px;
+        transition: all 0.5s;
+    }
+
+    .category-card .icon {
+        border: 1px dashed var(--main);
+        padding: 20px;
+        color: var(--main);
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: var(--white);
+    }
+
+        .category-card:hover .border-dashed {
+            background-color: var(--main);
+        }
+
+    .category-card h3 {
+        color: var(--dark);
+        transition: all 0.5s;
+    }
+
+    .category-card p {
+        color: var(--main);
+        transition: all 0.5s;
+    }
+
+        .category-card:hover h3 {
+            color: var(--white);
+        }
+
+        .category-card:hover p {
+            color: var(--white);
+        } 
+
+
+
+/* 
+    | //
+   ( @ @ )
+ooO__(_)__Ooo
+٩(͡๏̯͡๏)۶
+*/
